@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.container-one{
+        display: flex;
+    }
+.half-width{
+    width:50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 300px;
+    height: 300px;
+    padding-left: 20px;
+}
+#title{
+    font-size: 40px;
+    font-family: 'DM Serif Display', serif;
+    border-left: 5px solid;
+    border-color: rgb(255, 0, 149); 
+    border-radius: 10px;
+    padding-left: 10px;
+
+}
+#title span{
+   color: tomato;
+}
+#Introduction{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
